@@ -7,7 +7,7 @@ export default function Home() {
     {
       title: "Full Stack Developer",
       company: "GSP Green State Power",
-      companyLink: "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://gsp-af.com/&ved=2ahUKEwiRvq7t3YOLAxWIRvEDHblRKcIQFnoECDsQAQ&usg=AOvVaw3SZj-1LRTAI6sfFtOhI7aI",
+      companyLink: "https://gsp-af.com/",
       period: "2024 - Present",
       description: "Developing and maintaining web applications using React, Next.js, and Laravel. Leading frontend development and implementing responsive designs."
     },
