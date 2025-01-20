@@ -7,15 +7,26 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+[data-theme='dark'] {
+  --background: #171717;
+  --foreground: #ffffff;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add some dark mode utility classes */
+.dark-card {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.dark-text {
+  @apply text-gray-300;
+}
+
+.dark-heading {
+  @apply text-gray-100;
 }
