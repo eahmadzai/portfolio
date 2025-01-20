@@ -34,15 +34,15 @@ export default function About() {
                   shadow-xl border border-gray-200/50 dark:border-gray-700/30 hover:border-blue-500/20 
                   dark:hover:border-blue-400/20 transition-all duration-500">
                   <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                    Hey there! I'm a full-stack developer who loves turning ideas into reality through code. 
-                    Over the past two years, I've had the incredible opportunity to grow from my first role at 
+                    Hey there! I&apos;m a full-stack developer who loves turning ideas into reality through code. 
+                    Over the past two years, I&apos;ve had the incredible opportunity to grow from my first role at 
                     Mukhtar Abaseen Logistics to my current position at GSP Green State Power, where I continue 
                     to challenge myself and learn every day.
                   </p>
                   <p className="text-lg text-gray-700 dark:text-gray-300">
-                    What drives me is creating solutions that not only work flawlessly but also make people's lives 
-                    easier. I believe in writing clean, efficient code while keeping the end-user in mind. When I'm 
-                    not coding, you'll find me exploring new technologies and finding ways to bring more value to 
+                    What drives me is creating solutions that not only work flawlessly but also make people&apos;s lives 
+                    easier. I believe in writing clean, efficient code while keeping the end-user in mind. When I&apos;m 
+                    not coding, you&apos;ll find me exploring new technologies and finding ways to bring more value to 
                     the projects I work on.
                   </p>
                 </div>
