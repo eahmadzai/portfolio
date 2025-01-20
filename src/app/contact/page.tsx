@@ -28,7 +28,7 @@ export default function Contact() {
                   <div className="group bg-white/50 dark:bg-gray-700/50 rounded-xl p-6 
                     transition-all hover:scale-[1.02] duration-300 hover:shadow-lg 
                     border border-gray-100/20 dark:border-gray-600/20 hover:border-blue-500/30">
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-col sm:flex-row items-center gap-4">
                       <div className="flex-shrink-0 p-4 bg-gradient-to-br from-blue-500 to-blue-600 
                         rounded-lg shadow-lg group-hover:scale-110 transition-transform">
                         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -37,8 +37,8 @@ export default function Contact() {
                         </svg>
                       </div>
                       <a href="tel:+93764700907" 
-                        className="text-lg text-gray-800 dark:text-gray-200 hover:text-blue-600 
-                        dark:hover:text-blue-400 transition-colors">
+                        className="text-lg text-center sm:text-left text-gray-800 dark:text-gray-200 
+                        hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-all">
                         +93 764 700 907
                       </a>
                     </div>
@@ -48,7 +48,7 @@ export default function Contact() {
                   <div className="group bg-white/50 dark:bg-gray-700/50 rounded-xl p-6 
                     transition-all hover:scale-[1.02] duration-300 hover:shadow-lg 
                     border border-gray-100/20 dark:border-gray-600/20 hover:border-blue-500/30">
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-col sm:flex-row items-center gap-4">
                       <div className="flex-shrink-0 p-4 bg-gradient-to-br from-gray-700 to-gray-800 
                         rounded-lg shadow-lg group-hover:scale-110 transition-transform">
                         <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -58,8 +58,8 @@ export default function Contact() {
                       <a href="https://github.com/settings/profile" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-lg text-gray-800 dark:text-gray-200 hover:text-blue-600 
-                        dark:hover:text-blue-400 transition-colors">
+                        className="text-lg text-center sm:text-left text-gray-800 dark:text-gray-200 
+                        hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-all">
                         GitHub Profile
                       </a>
                     </div>
@@ -69,7 +69,7 @@ export default function Contact() {
                   <div className="group bg-white/50 dark:bg-gray-700/50 rounded-xl p-6 
                     transition-all hover:scale-[1.02] duration-300 hover:shadow-lg 
                     border border-gray-100/20 dark:border-gray-600/20 hover:border-blue-500/30">
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-col sm:flex-row items-center gap-4">
                       <div className="flex-shrink-0 p-4 bg-gradient-to-br from-blue-600 to-blue-700 
                         rounded-lg shadow-lg group-hover:scale-110 transition-transform">
                         <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -79,8 +79,8 @@ export default function Contact() {
                       <a href="https://www.linkedin.com/in/ahsanullah-ahmadzai-391552182" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-lg text-gray-800 dark:text-gray-200 hover:text-blue-600 
-                        dark:hover:text-blue-400 transition-colors">
+                        className="text-lg text-center sm:text-left text-gray-800 dark:text-gray-200 
+                        hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-all">
                         LinkedIn Profile
                       </a>
                     </div>
@@ -90,7 +90,7 @@ export default function Contact() {
                   <div className="group bg-white/50 dark:bg-gray-700/50 rounded-xl p-6 
                     transition-all hover:scale-[1.02] duration-300 hover:shadow-lg 
                     border border-gray-100/20 dark:border-gray-600/20 hover:border-blue-500/30">
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-col sm:flex-row items-center gap-4">
                       <div className="flex-shrink-0 p-4 bg-gradient-to-br from-green-500 to-green-600 
                         rounded-lg shadow-lg group-hover:scale-110 transition-transform">
                         <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -100,8 +100,8 @@ export default function Contact() {
                       <a href="https://wa.me/764700907" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-lg text-gray-800 dark:text-gray-200 hover:text-blue-600 
-                        dark:hover:text-blue-400 transition-colors">
+                        className="text-lg text-center sm:text-left text-gray-800 dark:text-gray-200 
+                        hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-all">
                         WhatsApp
                       </a>
                     </div>
@@ -111,7 +111,7 @@ export default function Contact() {
                   <div className="group bg-white/50 dark:bg-gray-700/50 rounded-xl p-6 
                     transition-all hover:scale-[1.02] duration-300 hover:shadow-lg 
                     border border-gray-100/20 dark:border-gray-600/20 hover:border-blue-500/30">
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-col sm:flex-row items-center gap-4">
                       <div className="flex-shrink-0 p-4 bg-gradient-to-br from-purple-500 to-purple-600 
                         rounded-lg shadow-lg group-hover:scale-110 transition-transform">
                         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -120,8 +120,8 @@ export default function Contact() {
                         </svg>
                       </div>
                       <a href="mailto:ahsanahmadzai035@gmail.com" 
-                        className="text-lg text-gray-800 dark:text-gray-200 hover:text-blue-600 
-                        dark:hover:text-blue-400 transition-colors">
+                        className="text-lg text-center sm:text-left text-gray-800 dark:text-gray-200 
+                        hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-all">
                         ahsanahmadzai035@gmail.com
                       </a>
                     </div>
