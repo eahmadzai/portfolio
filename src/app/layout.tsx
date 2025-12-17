@@ -16,20 +16,28 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={geist.className}>
-        {/* Google AdSense */}
+      <head>
+        {/* Google AdSense account verification */}
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-6604999753558254"
+        />
+
+        {/* Google AdSense script */}
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6604999753558254"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+      </head>
 
+      <body className={geist.className}>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
